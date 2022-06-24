@@ -1,12 +1,15 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
-      Weather App
-      <footer>
+      <div className="container ">
+        <Weather />
+      </div>
+      <footer className=" text-center">
         {" "}
         This website was coded by{" "}
         <a
