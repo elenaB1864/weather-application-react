@@ -11,7 +11,7 @@ export default function App() {
       </div>
       <footer className=" text-center">
         {" "}
-        This website was coded by{" "}
+        This project was coded by{" "}
         <a
           href="https://github.com/elenaB1864"
           target="_blank"
